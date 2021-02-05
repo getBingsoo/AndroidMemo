@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="debounce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDebounce"/>
+    <Button
+        android:text="throttle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickThrottle"/>
+    <Button
+        android:text="buffer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBuffer"/>
+    <Button
+        android:text="combineLatest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickCombineLatest"/>
+    <Button
+        android:text="BehaviorSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBehaviorSubject"/>
+    <Button
+        android:text="RxJava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickRxJava"/>
+
+</LinearLayout>
